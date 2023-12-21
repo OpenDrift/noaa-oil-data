@@ -51,6 +51,11 @@
                 "name": "RM",
                 "date": "2023-08-02T13:45:37.486-07:00",
                 "comment": "name change"
+            },
+            {
+                "name": "RM",
+                "date": "2023-11-22T10:29:03.045-08:00",
+                "comment": "Removed Problem TBP"
             }
         ]
     },
@@ -143,11 +148,6 @@
             "distillation_data": {
                 "type": "mass fraction",
                 "method": "Simulated Distillation",
-                "end_point": {
-                    "value": 520.0,
-                    "unit": "C",
-                    "unit_type": "temperature"
-                },
                 "fraction_recovered": {
                     "value": 100.0,
                     "unit": "%",

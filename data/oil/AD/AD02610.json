@@ -72,6 +72,11 @@
                 "name": "RM",
                 "date": "2023-08-31T08:49:05.295-07:00",
                 "comment": "removed 50 C dynamic visc"
+            },
+            {
+                "name": "RM",
+                "date": "2023-11-22T10:24:50.689-08:00",
+                "comment": "Removing Problem TBP"
             }
         ]
     },
@@ -161,11 +166,6 @@
             },
             "distillation_data": {
                 "type": "volume fraction",
-                "end_point": {
-                    "value": 605.0,
-                    "unit": "C",
-                    "unit_type": "temperature"
-                },
                 "fraction_recovered": {
                     "value": 100.0,
                     "unit": "%",

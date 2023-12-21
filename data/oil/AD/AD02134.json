@@ -15,11 +15,17 @@
             "Aviation Gas",
             "Distillate Fuel",
             "Fuel Oil",
-            "Gasoline",
             "Refined Product"
         ],
-        "model_completeness": 45,
-        "gnome_suitable": true
+        "model_completeness": 63,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "Chris",
+                "date": "2023-12-18T15:53:24.226-08:00",
+                "comment": "removed gasoline label and set fraction recovered too 100%"
+            }
+        ]
     },
     "sub_samples": [
         {
@@ -116,6 +122,11 @@
             },
             "distillation_data": {
                 "type": "volume fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
                 "cuts": [
                     {
                         "fraction": {
@@ -326,9 +337,6 @@
                 }
             ]
         }
-    ],
-    "status": [
-        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

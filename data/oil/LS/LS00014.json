@@ -64,6 +64,11 @@
                 "name": "RM",
                 "date": "2023-07-25T12:19:33.843-07:00",
                 "comment": "Change title for MGO"
+            },
+            {
+                "name": "RM",
+                "date": "2023-11-22T10:23:42.845-08:00",
+                "comment": "Removed Problem Terminal Boiling Point"
             }
         ]
     },
@@ -131,11 +136,6 @@
             "distillation_data": {
                 "type": "mass fraction",
                 "method": "ASTM D86",
-                "end_point": {
-                    "value": 354.44,
-                    "unit": "C",
-                    "unit_type": "temperature"
-                },
                 "fraction_recovered": {
                     "value": 100.0,
                     "unit": "%",

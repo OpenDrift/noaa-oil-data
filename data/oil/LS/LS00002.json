@@ -78,6 +78,11 @@
                 "name": "RM",
                 "date": "2023-07-25T12:20:01.733-07:00",
                 "comment": "title change to ULSFO"
+            },
+            {
+                "name": "RM",
+                "date": "2023-11-22T10:27:22.697-08:00",
+                "comment": "Removed Problem TBP"
             }
         ]
     },
@@ -151,11 +156,6 @@
             },
             "distillation_data": {
                 "type": "mass fraction",
-                "end_point": {
-                    "value": 338.89,
-                    "unit": "C",
-                    "unit_type": "temperature"
-                },
                 "fraction_recovered": {
                     "value": 100.0,
                     "unit": "%",

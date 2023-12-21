@@ -66,6 +66,11 @@
                 "name": "RM",
                 "date": "2023-07-25T12:17:47.934-07:00",
                 "comment": "DMB title change"
+            },
+            {
+                "name": "RM",
+                "date": "2023-11-22T10:23:06.179-08:00",
+                "comment": "Removed Problem Terminal BP"
             }
         ]
     },
@@ -132,11 +137,6 @@
             },
             "distillation_data": {
                 "type": "mass fraction",
-                "end_point": {
-                    "value": 365.56,
-                    "unit": "C",
-                    "unit_type": "temperature"
-                },
                 "fraction_recovered": {
                     "value": 100.0,
                     "unit": "%",

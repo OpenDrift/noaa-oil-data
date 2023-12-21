@@ -78,6 +78,21 @@
                 "name": "RM",
                 "date": "2023-08-31T08:39:12.787-07:00",
                 "comment": "added evaporated"
+            },
+            {
+                "name": "RM",
+                "date": "2023-11-22T10:26:04.687-08:00",
+                "comment": "Removed Problem TBP"
+            },
+            {
+                "name": "RM",
+                "date": "2023-12-07T13:41:25.406-08:00",
+                "comment": "Changed subsample name"
+            },
+            {
+                "name": "RM",
+                "date": "2023-12-07T13:59:03.960-08:00",
+                "comment": "Changed subsample shortname"
             }
         ]
     },
@@ -167,11 +182,6 @@
             },
             "distillation_data": {
                 "type": "volume fraction",
-                "end_point": {
-                    "value": 355.0,
-                    "unit": "C",
-                    "unit_type": "temperature"
-                },
                 "fraction_recovered": {
                     "value": 100.0,
                     "unit": "%",
@@ -327,8 +337,8 @@
         },
         {
             "metadata": {
-                "name": "30.6% Evaporated",
-                "short_name": "30.6% Evaporated",
+                "name": "Residue topped to 250\u00b0C+",
+                "short_name": "250\u00b0C+",
                 "fraction_evaporated": {
                     "value": 30.6,
                     "unit": "%",

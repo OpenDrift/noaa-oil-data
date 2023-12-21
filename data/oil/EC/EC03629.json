@@ -277,9 +277,9 @@
                     "unit_type": "temperature"
                 },
                 "fraction_recovered": {
-                    "value": 1.0,
                     "unit": "fraction",
-                    "unit_type": "massfraction"
+                    "max_value": 1.0,
+                    "unit_type": "concentration"
                 },
                 "cuts": [
                     {
@@ -2036,6 +2036,9 @@
                 "method": "ESTS 5.03/x.x/M"
             }
         }
+    ],
+    "status": [
+        "W100: Not GNOME compatible: Fraction recovered less than 1 for Bio-Petro Fuel Oil. Oil not suitable for use in Gnome"
     ],
     "review_status": {
         "status": "Not Reviewed"

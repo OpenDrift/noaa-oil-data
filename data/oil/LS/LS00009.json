@@ -83,6 +83,11 @@
                 "name": "RM",
                 "date": "2023-07-25T12:17:18.451-07:00",
                 "comment": "Title change for DMA"
+            },
+            {
+                "name": "RM",
+                "date": "2023-11-22T10:22:24.051-08:00",
+                "comment": "Removed problem Terminal Boiling Point"
             }
         ]
     },
@@ -151,11 +156,6 @@
             "distillation_data": {
                 "type": "mass fraction",
                 "method": "ASTM D86",
-                "end_point": {
-                    "value": 348.89,
-                    "unit": "C",
-                    "unit_type": "temperature"
-                },
                 "fraction_recovered": {
                     "value": 100.0,
                     "unit": "%",
