@@ -9,7 +9,6 @@
             "year": 1998,
             "reference": "Singsaas I. et al., 1998, Forvitringsegenskaper for Huldra kondensat, STF66 F98085"
         },
-        "sample_date": "1998",
         "product_type": "Condensate",
         "API": 43.26,
         "comments": "Dynamic viscosity measured at shear rate 100/s.",
@@ -18,7 +17,7 @@
             "Light Crude"
         ],
         "model_completeness": 56,
-        "gnome_suitable": false,
+        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "Rin",
@@ -29,11 +28,6 @@
                 "name": "R",
                 "date": "2022-11-28T12:29:22.696-08:00",
                 "comment": "Issue #27 - Normalize Location"
-            },
-            {
-                "name": "Knut-Frode Dagestad",
-                "date": "2023-11-23T17:07:12.823655",
-                "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
             }
         ]
     },
@@ -64,7 +58,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -94,11 +88,6 @@
             },
             "distillation_data": {
                 "type": "volume fraction",
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                },
                 "cuts": [
                     {
                         "fraction": {
@@ -252,7 +241,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -272,13 +261,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         },
         {
@@ -300,7 +282,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -320,13 +302,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         },
         {
@@ -348,7 +323,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -368,15 +343,11 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         }
+    ],
+    "status": [
+        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

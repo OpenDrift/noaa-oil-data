@@ -9,7 +9,6 @@
             "year": 2002,
             "reference": "Moldestad M. O., M. Resby J. L., 2002, Forvitringsanalyser av Tambar, STF66 F02009"
         },
-        "sample_date": "2002",
         "product_type": "Crude Oil NOS",
         "API": 39.25,
         "labels": [
@@ -28,11 +27,6 @@
                 "name": "R",
                 "date": "2022-11-28T13:03:21.088-08:00",
                 "comment": "Issue #27 - Normalize Location"
-            },
-            {
-                "name": "Knut-Frode Dagestad",
-                "date": "2023-11-23T17:07:12.758055",
-                "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
             }
         ]
     },
@@ -63,7 +57,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -92,12 +86,7 @@
                 }
             },
             "distillation_data": {
-                "type": "mass fraction",
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
+                "type": "mass fraction"
             },
             "bulk_composition": [
                 {
@@ -129,7 +118,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -149,13 +138,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         }
     ],

@@ -2,14 +2,13 @@
     "oil_id": "NO00015",
     "adios_data_model_version": "0.12.0",
     "metadata": {
-        "name": "EKOFISK BLEND",
+        "name": "EKOFISK BLEND 2011",
         "source_id": "NO00015",
         "location": "Norway",
         "reference": {
             "year": 2015,
             "reference": "Hellstrom K. C., Brandvik P. J., 2015, Comparison of predicted properties of Ekofisk oils based on crude assay data, SINTEF A27361"
         },
-        "sample_date": "2011",
         "product_type": "Crude Oil NOS",
         "API": 36.61,
         "labels": [
@@ -23,11 +22,6 @@
                 "name": "R",
                 "date": "2022-11-28T12:05:53.751-08:00",
                 "comment": "Issue #27 - Normalize Location"
-            },
-            {
-                "name": "Knut-Frode Dagestad",
-                "date": "2023-11-23T17:07:12.530295",
-                "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
             }
         ]
     },
@@ -58,7 +52,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -87,12 +81,7 @@
                 }
             },
             "distillation_data": {
-                "type": "mass fraction",
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
+                "type": "mass fraction"
             },
             "bulk_composition": [
                 {
@@ -124,7 +113,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -144,13 +133,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         },
         {
@@ -172,7 +154,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -192,13 +174,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         },
         {
@@ -220,7 +195,7 @@
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 288.15,
+                            "value": 288.65,
                             "unit": "K",
                             "unit_type": "temperature"
                         }
@@ -240,13 +215,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         }
     ],

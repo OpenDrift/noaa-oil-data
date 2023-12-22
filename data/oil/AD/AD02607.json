@@ -83,16 +83,6 @@
                 "name": "RM",
                 "date": "2023-11-22T10:26:04.687-08:00",
                 "comment": "Removed Problem TBP"
-            },
-            {
-                "name": "RM",
-                "date": "2023-12-07T13:41:25.406-08:00",
-                "comment": "Changed subsample name"
-            },
-            {
-                "name": "RM",
-                "date": "2023-12-07T13:59:03.960-08:00",
-                "comment": "Changed subsample shortname"
             }
         ]
     },
@@ -337,8 +327,8 @@
         },
         {
             "metadata": {
-                "name": "Residue topped to 250\u00b0C+",
-                "short_name": "250\u00b0C+",
+                "name": "30.6% Evaporated",
+                "short_name": "30.6% Evaporated",
                 "fraction_evaporated": {
                     "value": 30.6,
                     "unit": "%",

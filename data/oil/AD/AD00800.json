@@ -110,6 +110,9 @@
             }
         }
     ],
+    "status": [
+        "W100: Not GNOME compatible: Distillation data required for Solvent. Oil not suitable for use in Gnome"
+    ],
     "review_status": {
         "status": "Not Reviewed"
     }

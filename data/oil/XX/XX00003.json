@@ -1,27 +1,43 @@
 {
-    "oil_id": "NO00062",
+    "oil_id": "XX00003",
     "adios_data_model_version": "0.12.0",
     "metadata": {
-        "name": "MIDGARD 1991",
-        "source_id": "NO00062",
+        "name": "Chris' experiment",
+        "source_id": "NO00108",
         "location": "Norway",
         "reference": {
             "year": 2003,
             "reference": "Leirvik F., Wang U. M., Moldestad M. O., 2003, Aasgard A, Smorbukk, Smorbukk Sor, Smorbukk kondensat/lettolje og Midgard - Egenskaper og forvitring paa sjoen relatert til beredskap, STF66 A03053"
         },
         "product_type": "Crude Oil NOS",
-        "API": 53.55,
-        "comments": "Dynamic viscosity measured at shear rate 100/s.",
+        "API": 42.2,
+        "comments": "Oil containing scale inhibitor, emulsion breaker and foam breaker.",
         "labels": [
-            "Crude Oil"
+            "Crude Oil",
+            "Light Crude"
         ],
         "model_completeness": 32,
         "gnome_suitable": true,
         "change_log": [
             {
-                "name": "R",
-                "date": "2022-11-28T13:05:39.744-08:00",
-                "comment": "Issue #27 - Normalize Location"
+                "name": "Chris",
+                "date": "2022-01-20T15:07:05.903-08:00",
+                "comment": "Reset API to wrong value"
+            },
+            {
+                "name": "Chris",
+                "date": "2022-03-24T13:26:52.759-07:00",
+                "comment": "Fixed API"
+            },
+            {
+                "name": "Rin",
+                "date": "2022-11-25T11:57:27.533-08:00",
+                "comment": "Issue #25 - Name with Reference Year"
+            },
+            {
+                "name": "Rin",
+                "date": "2022-11-25T13:04:05.525-08:00",
+                "comment": "Issue #27"
             }
         ]
     },
@@ -37,10 +53,17 @@
                 }
             },
             "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 237.15,
+                        "unit": "K",
+                        "unit_type": "temperature"
+                    }
+                },
                 "densities": [
                     {
                         "density": {
-                            "value": 764.0,
+                            "value": 814.0,
                             "unit": "kg/m^3",
                             "unit_type": "density"
                         },
@@ -54,7 +77,7 @@
                 "dynamic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 0.0011,
+                            "value": 0.026,
                             "unit": "kg/(m s)",
                             "unit_type": "dynamicviscosity"
                         },
@@ -68,7 +91,7 @@
             },
             "SARA": {
                 "asphaltenes": {
-                    "value": 0.0001,
+                    "value": 0.0004,
                     "unit": "fraction",
                     "unit_type": "massfraction"
                 }
@@ -80,7 +103,7 @@
                 {
                     "name": "wax_content",
                     "measurement": {
-                        "value": 0.0002,
+                        "value": 0.045,
                         "unit": "fraction",
                         "unit_type": "massfraction"
                     }
@@ -89,10 +112,10 @@
         },
         {
             "metadata": {
-                "name": "58.2% Weathered",
-                "short_name": "58.2% Weathered",
+                "name": "23.0% Weathered",
+                "short_name": "23.0% Weathered",
                 "fraction_evaporated": {
-                    "value": 0.582,
+                    "value": 0.23,
                     "unit": "fraction",
                     "unit_type": "massfraction"
                 }
@@ -101,7 +124,7 @@
                 "densities": [
                     {
                         "density": {
-                            "value": 812.0,
+                            "value": 848.0,
                             "unit": "kg/m^3",
                             "unit_type": "density"
                         },
@@ -115,7 +138,7 @@
                 "dynamic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 0.0017,
+                            "value": 0.189,
                             "unit": "kg/(m s)",
                             "unit_type": "dynamicviscosity"
                         },
@@ -130,10 +153,10 @@
         },
         {
             "metadata": {
-                "name": "77.1% Weathered",
-                "short_name": "77.1% Weathered",
+                "name": "36.3% Weathered",
+                "short_name": "36.3% Weathered",
                 "fraction_evaporated": {
-                    "value": 0.771,
+                    "value": 0.363,
                     "unit": "fraction",
                     "unit_type": "massfraction"
                 }
@@ -142,7 +165,7 @@
                 "densities": [
                     {
                         "density": {
-                            "value": 830.0,
+                            "value": 864.0,
                             "unit": "kg/m^3",
                             "unit_type": "density"
                         },
@@ -156,7 +179,7 @@
                 "dynamic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 0.0034,
+                            "value": 1.44,
                             "unit": "kg/(m s)",
                             "unit_type": "dynamicviscosity"
                         },
@@ -171,10 +194,10 @@
         },
         {
             "metadata": {
-                "name": "88.4% Weathered",
-                "short_name": "88.4% Weathered",
+                "name": "46.7% Weathered",
+                "short_name": "46.7% Weathered",
                 "fraction_evaporated": {
-                    "value": 0.884,
+                    "value": 0.467,
                     "unit": "fraction",
                     "unit_type": "massfraction"
                 }
@@ -183,7 +206,7 @@
                 "densities": [
                     {
                         "density": {
-                            "value": 845.0,
+                            "value": 875.0,
                             "unit": "kg/m^3",
                             "unit_type": "density"
                         },
@@ -197,7 +220,7 @@
                 "dynamic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 0.0068,
+                            "value": 5.52,
                             "unit": "kg/(m s)",
                             "unit_type": "dynamicviscosity"
                         },

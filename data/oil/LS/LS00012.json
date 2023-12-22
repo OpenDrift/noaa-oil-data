@@ -121,6 +121,9 @@
             ]
         }
     ],
+    "status": [
+        "W100: Not GNOME compatible: Gnome oil needs at least one viscosity value"
+    ],
     "review_status": {
         "status": "Not Reviewed"
     }
