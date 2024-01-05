@@ -9,7 +9,6 @@
             "year": 2017,
             "reference": "Oksenvag J. et al. 2017, Sigyn condensate \u201a\u00c4\u00ec properties and behaviour at sea, SINTEF report."
         },
-        "sample_date": "2017",
         "product_type": "Condensate",
         "API": 59.79,
         "labels": [
@@ -17,7 +16,7 @@
             "Crude Oil"
         ],
         "model_completeness": 56,
-        "gnome_suitable": false,
+        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "Rin",
@@ -28,11 +27,6 @@
                 "name": "R",
                 "date": "2022-11-28T13:10:23.008-08:00",
                 "comment": "Issue #27 - Normalize Location"
-            },
-            {
-                "name": "Knut-Frode Dagestad",
-                "date": "2023-11-23T17:07:12.721861",
-                "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
             }
         ]
     },
@@ -93,11 +87,6 @@
             },
             "distillation_data": {
                 "type": "mass fraction",
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                },
                 "cuts": [
                     {
                         "fraction": {
@@ -106,7 +95,7 @@
                             "unit_type": "massfraction"
                         },
                         "vapor_temp": {
-                            "value": -60.0,
+                            "value": -59.99999999999997,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -305,13 +294,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         },
         {
@@ -339,13 +321,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         },
         {
@@ -373,13 +348,6 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         },
         {
@@ -421,15 +389,11 @@
                         }
                     }
                 ]
-            },
-            "distillation_data": {
-                "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
-                }
             }
         }
+    ],
+    "status": [
+        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

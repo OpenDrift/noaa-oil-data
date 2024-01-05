@@ -45,8 +45,8 @@
             "physical_properties": {
                 "pour_point": {
                     "measurement": {
-                        "value": 43.0,
                         "unit": "C",
+                        "min_value": 43.0,
                         "unit_type": "temperature"
                     }
                 },

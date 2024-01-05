@@ -77,11 +77,6 @@
                 "name": "RM",
                 "date": "2023-11-22T10:26:52.276-08:00",
                 "comment": "Removed Problem TBP"
-            },
-            {
-                "name": "RM",
-                "date": "2023-12-07T13:59:55.433-08:00",
-                "comment": "Changed Subsample shortname"
             }
         ]
     },
@@ -327,7 +322,7 @@
         {
             "metadata": {
                 "name": "14.6% Evaporated",
-                "short_name": "250\u00b0C+",
+                "short_name": "14.6% Evaporated",
                 "fraction_evaporated": {
                     "value": 14.6,
                     "unit": "%",

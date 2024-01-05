@@ -70,6 +70,9 @@
             }
         }
     ],
+    "status": [
+        "W100: Not GNOME compatible: Distillation data required for Bio-fuel Oil. Oil not suitable for use in Gnome"
+    ],
     "review_status": {
         "status": "Not Reviewed"
     }
