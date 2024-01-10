@@ -341,7 +341,8 @@
         "E061: Boiling points in distillation cuts are not strictly increasing",
         "W009: Distillation fraction recovered is missing or invalid"
     ],
-    "review_status": {
-        "status": "Not Reviewed"
-    }
-}
+  "review_status": {
+    "status": "Under Review",
+    "review_date": "2024-01-08",
+    "notes": "Temp decreasing between 0.01 and 0.02 fractions"
+  }

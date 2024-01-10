@@ -276,6 +276,8 @@
         "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
-        "status": "Not Reviewed"
+        "status": "Under Review",
+        "review_date": "2024-01-08",
+        "notes": "Dist. Fraction decreasing between 300 and 350 C"
     }
 }

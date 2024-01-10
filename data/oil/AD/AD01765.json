@@ -242,7 +242,9 @@
     "status": [
         "W009: Distillation fraction recovered is missing or invalid"
     ],
-    "review_status": {
-        "status": "Not Reviewed"
-    }
+  "review_status": {
+    "status": "Under Review",
+    "review_date": "2024-01-09",
+    "notes": "Same Visc. for 0 and 15 C"
+  }
 }

@@ -299,6 +299,8 @@
         "E061: Boiling points in distillation cuts are not strictly increasing"
     ],
     "review_status": {
-        "status": "Not Reviewed"
+        "status": "Under Review",
+        "review_date": "2024-01-08",
+        "notes": "Temp decreasing between 90 and 99%"
     }
 }

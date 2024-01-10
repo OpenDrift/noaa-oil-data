@@ -123,7 +123,9 @@
             ]
         }
     ],
-    "review_status": {
-        "status": "Not Reviewed"
-    }
+  "review_status": {
+      "status": "Under Review",
+      "review_date": "2024-01-08",
+      "notes": "Same Visc. for 40 and 50 C"
+  }
 }

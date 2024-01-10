@@ -129,7 +129,9 @@
     "status": [
         "W100: Not GNOME compatible: Distillation data required for Other. Oil not suitable for use in Gnome"
     ],
-    "review_status": {
-        "status": "Not Reviewed"
-    }
+  "review_status": {
+    "status": "Under Review",
+    "review_date": "2024-01-09",
+    "notes": "Not GNOME compatible: Distillation data required for Refinery Intermediate. Oil not suitable for use in Gnome"
+  }
 }
