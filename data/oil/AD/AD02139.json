@@ -21,8 +21,15 @@
             "No. 2 Fuel Oil",
             "Refined Product"
         ],
-        "model_completeness": 49,
-        "gnome_suitable": true
+        "model_completeness": 60,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "RM",
+                "date": "2024-01-11T11:20:59.986-08:00",
+                "comment": "Added distillation data"
+            }
+        ]
     },
     "sub_samples": [
         {
@@ -98,6 +105,11 @@
             },
             "distillation_data": {
                 "type": "mass fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
                 "cuts": [
                     {
                         "fraction": {
@@ -292,9 +304,6 @@
                 }
             ]
         }
-    ],
-    "status": [
-        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

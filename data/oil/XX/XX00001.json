@@ -1,30 +1,27 @@
 {
-    "oil_id": "AD00094",
+    "oil_id": "XX00001",
     "adios_data_model_version": "0.12.0",
     "metadata": {
-        "name": "AVIATION GASOLINE 80",
-        "source_id": "AD00094",
+        "name": "Copy of ANTAN, HUVENSA",
+        "source_id": "AD02109",
+        "location": "Nigeria",
         "reference": {
-            "year": 1992,
-            "reference": "Whiticar, S. Bobra, M., Fingas, M., Jokuty, P., Liuzzo, P., Callaghan, S., Ackerman, F., and Coa, J. 1992. A Catalogue of Crude Oil and Oil Product Properties (1992 Edition). Prepared for Environment Canada, EE-144, Ottawa, Ontario. 643pp."
+            "year": 2000,
+            "reference": "Personal Communication to Glen Watabayashi, NOAA, March 22, 2000."
         },
-        "product_type": "Distillate Fuel Oil",
-        "API": 71.8,
-        "comments": "Blend of catalytically cracked and straight-run naphthas, alkylates, and  isopentanes.  Operational fuel for many small piston engine aircraft.  Dyed red for identifiaction.  WARNING: Benzene content of product is only an estimate and not a measured value.\n\nThe data in this record may have been compiled from multiple sources and reflect samples of varying age and composition.",
+        "product_type": "Crude Oil NOS",
+        "API": 31.55,
         "labels": [
-            "Aviation Gas",
-            "Distillate Fuel",
-            "Fuel Oil",
-            "Gasoline",
-            "Refined Product"
+            "Crude Oil",
+            "Medium Crude"
         ],
-        "model_completeness": 60,
+        "model_completeness": 40,
         "gnome_suitable": true,
         "change_log": [
             {
-                "name": "RM",
-                "date": "2024-01-11T14:47:17.980-08:00",
-                "comment": "Distillate Fuel Oil: Fraction Recovered Changed to 100%"
+                "name": "Rin",
+                "date": "2022-11-25T13:27:19.738-08:00",
+                "comment": "Issue #27 - Normalize Location"
             }
         ]
     },
@@ -40,83 +37,93 @@
                 }
             },
             "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 2.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
+                "flash_point": {
+                    "measurement": {
+                        "value": 30.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
                 "densities": [
                     {
                         "density": {
-                            "value": 695.0,
+                            "value": 867.0,
                             "unit": "kg/m^3",
                             "unit_type": "density"
                         },
                         "ref_temp": {
-                            "value": 15.0,
+                            "value": 16.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
                     }
                 ],
-                "dynamic_viscosities": [
+                "kinematic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 0.00089,
-                            "unit": "kg/(m s)",
-                            "unit_type": "dynamicviscosity"
+                            "value": 5.2e-06,
+                            "unit": "m^2/s",
+                            "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
-                            "value": 0.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    },
-                    {
-                        "viscosity": {
-                            "value": 0.00083,
-                            "unit": "kg/(m s)",
-                            "unit_type": "dynamicviscosity"
-                        },
-                        "ref_temp": {
-                            "value": 15.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    }
-                ],
-                "interfacial_tension_water": [
-                    {
-                        "tension": {
-                            "value": 0.0317,
-                            "unit": "N/m",
-                            "unit_type": "interfacialtension"
-                        },
-                        "ref_temp": {
-                            "value": 15.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    }
-                ],
-                "interfacial_tension_seawater": [
-                    {
-                        "tension": {
-                            "value": 0.0331,
-                            "unit": "N/m",
-                            "unit_type": "interfacialtension"
-                        },
-                        "ref_temp": {
-                            "value": 15.0,
+                            "value": 50.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
                     }
                 ]
             },
-            "distillation_data": {
-                "type": "volume fraction",
-                "fraction_recovered": {
-                    "value": 100.0,
-                    "unit": "%",
+            "SARA": {
+                "saturates": {
+                    "value": 0.6,
+                    "unit": "fraction",
                     "unit_type": "massfraction"
                 },
+                "aromatics": {
+                    "value": 0.37,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                },
+                "asphaltenes": {
+                    "value": 0.01,
+                    "unit": "fraction",
+                    "unit_type": "massfraction"
+                }
+            },
+            "distillation_data": {
+                "type": "volume fraction",
                 "cuts": [
+                    {
+                        "fraction": {
+                            "value": 0.01,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 42.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.05,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 97.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
                     {
                         "fraction": {
                             "value": 0.1,
@@ -124,7 +131,7 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 64.0,
+                            "value": 125.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -136,7 +143,7 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 77.0,
+                            "value": 176.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -148,7 +155,7 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 87.0,
+                            "value": 227.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -160,7 +167,7 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 95.0,
+                            "value": 270.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -172,7 +179,7 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 101.0,
+                            "value": 314.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -184,7 +191,7 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 105.0,
+                            "value": 366.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -196,7 +203,7 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 108.0,
+                            "value": 422.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -208,7 +215,7 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 111.0,
+                            "value": 479.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -220,34 +227,47 @@
                             "unit_type": "volumefraction"
                         },
                         "vapor_temp": {
-                            "value": 120.0,
+                            "value": 586.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "fraction": {
+                            "value": 0.94,
+                            "unit": "fraction",
+                            "unit_type": "volumefraction"
+                        },
+                        "vapor_temp": {
+                            "value": 643.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
                     }
                 ]
             },
-            "compounds": [
+            "bulk_composition": [
                 {
-                    "name": "benzene",
+                    "name": "wax_content",
                     "measurement": {
-                        "value": 0.05,
+                        "value": 0.1,
+                        "unit": "fraction",
+                        "unit_type": "massfraction"
+                    }
+                },
+                {
+                    "name": "polars",
+                    "measurement": {
+                        "value": 0.03,
                         "unit": "fraction",
                         "unit_type": "massfraction"
                     }
                 }
-            ],
-            "industry_properties": [
-                {
-                    "name": "Reid Vapor Pressure",
-                    "measurement": {
-                        "value": 0.38,
-                        "unit": "bar",
-                        "unit_type": "pressure"
-                    }
-                }
             ]
         }
+    ],
+    "status": [
+        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

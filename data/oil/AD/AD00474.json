@@ -2,7 +2,7 @@
     "oil_id": "AD00474",
     "adios_data_model_version": "0.12.0",
     "metadata": {
-        "name": "GASOLINE: POLYMER",
+        "name": "GASOLINE (POLYMER)",
         "source_id": "AD00474",
         "reference": {
             "year": 1996,
@@ -19,8 +19,15 @@
             "Residual Fuel",
             "Transformer Oil"
         ],
-        "model_completeness": 25,
-        "gnome_suitable": false
+        "model_completeness": 24,
+        "gnome_suitable": false,
+        "change_log": [
+            {
+                "name": "RM",
+                "date": "2024-01-11T09:44:07.354-08:00",
+                "comment": "Changed name to match that of source."
+            }
+        ]
     },
     "sub_samples": [
         {
