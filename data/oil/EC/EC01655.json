@@ -11,17 +11,28 @@
         },
         "sample_date": "2010-02-09",
         "product_type": "Crude Oil NOS",
+        "API": 37.23,
         "comments": "Via BP/Aecom from Mississippi Canyon Block 252\\nThis record only for interfacial tension measurement",
         "labels": [
             "Crude Oil"
         ],
-        "model_completeness": 0,
+        "model_completeness": 8,
         "gnome_suitable": false,
         "change_log": [
             {
                 "name": "R",
                 "date": "2022-11-28T11:09:35.216-08:00",
                 "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-12T16:01:35.501-08:00",
+                "comment": "Found density/API"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-12T16:01:35.716-08:00",
+                "comment": "Found density/API"
             }
         ]
     },
@@ -38,6 +49,20 @@
                 }
             },
             "physical_properties": {
+                "densities": [
+                    {
+                        "density": {
+                            "value": 0.8379,
+                            "unit": "g/cm^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
                 "interfacial_tension_air": [
                     {
                         "tension": {
@@ -74,9 +99,7 @@
         }
     ],
     "status": [
-        "E030: Oils must have an API",
-        "W006: No density values provided",
-        "W100: Not GNOME compatible: Cannot initialize a Density object with no data"
+        "W100: Not GNOME compatible: Gnome oil needs at least one viscosity value"
     ],
     "review_status": {
         "status": "Review Complete"

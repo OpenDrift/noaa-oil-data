@@ -11,13 +11,14 @@
         },
         "sample_date": "2002-01-26",
         "product_type": "Crude Oil NOS",
+        "API": 16.35,
         "comments": "NOTE from ESTS: Density data missing due to Quality issues with measurements",
         "labels": [
             "Crude Oil",
             "Medium Crude"
         ],
-        "model_completeness": 88,
-        "gnome_suitable": false,
+        "model_completeness": 96,
+        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "R",
@@ -33,6 +34,16 @@
                 "name": "Chris Barker",
                 "date": "2022-12-15T16:20:17.299-08:00",
                 "comment": "Removed incorrect density data, and added note."
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-12T15:57:38.973-08:00",
+                "comment": "Found API from density from source"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-12T15:57:40.355-08:00",
+                "comment": "Found API from density from source"
             }
         ]
     },
@@ -68,6 +79,20 @@
                     },
                     "method": "ASTM D7094"
                 },
+                "densities": [
+                    {
+                        "density": {
+                            "value": 0.9562,
+                            "unit": "g/cm^3",
+                            "unit_type": "density"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
                 "dynamic_viscosities": [
                     {
                         "viscosity": {
@@ -6977,11 +7002,6 @@
                 }
             ]
         }
-    ],
-    "status": [
-        "E030: Oils must have an API",
-        "W006: No density values provided",
-        "W100: Not GNOME compatible: Cannot initialize a Density object with no data"
     ],
     "review_status": {
         "status": "Review Complete",

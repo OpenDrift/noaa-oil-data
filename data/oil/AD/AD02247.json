@@ -16,8 +16,15 @@
             "Fuel Oil",
             "Refined Product"
         ],
-        "model_completeness": 38,
-        "gnome_suitable": true
+        "model_completeness": 52,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "RM",
+                "date": "2024-01-12T16:28:08.616-08:00",
+                "comment": "100% rec"
+            }
+        ]
     },
     "sub_samples": [
         {
@@ -121,6 +128,11 @@
             },
             "distillation_data": {
                 "type": "volume fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
                 "cuts": [
                     {
                         "fraction": {
@@ -203,9 +215,6 @@
                 ]
             }
         }
-    ],
-    "status": [
-        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

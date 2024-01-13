@@ -17,8 +17,15 @@
             "MDO",
             "Refined Product"
         ],
-        "model_completeness": 54,
-        "gnome_suitable": true
+        "model_completeness": 64,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "RM",
+                "date": "2024-01-12T10:12:18.434-08:00",
+                "comment": "Distillate Fuel Oil: Changed Frac recovered to 100%"
+            }
+        ]
     },
     "sub_samples": [
         {
@@ -177,6 +184,11 @@
             },
             "distillation_data": {
                 "type": "mass fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
                 "cuts": [
                     {
                         "fraction": {
@@ -321,9 +333,6 @@
                 }
             ]
         }
-    ],
-    "status": [
-        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

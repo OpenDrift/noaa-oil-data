@@ -19,13 +19,18 @@
             "Gasoline",
             "Refined Product"
         ],
-        "model_completeness": 40,
+        "model_completeness": 56,
         "gnome_suitable": true,
         "change_log": [
             {
                 "name": "R",
                 "date": "2022-11-25T14:39:56.316-08:00",
                 "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-12T09:39:35.168-08:00",
+                "comment": "\u2013 Distillate Fuel Oil: Fraction Recovered Changed to 100%"
             }
         ]
     },
@@ -79,6 +84,11 @@
             },
             "distillation_data": {
                 "type": "volume fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
                 "cuts": [
                     {
                         "fraction": {
@@ -153,9 +163,6 @@
                 }
             ]
         }
-    ],
-    "status": [
-        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"
