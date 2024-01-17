@@ -17,7 +17,7 @@
             "MDO",
             "Refined Product"
         ],
-        "model_completeness": 52,
+        "model_completeness": 68,
         "gnome_suitable": true,
         "change_log": [
             {
@@ -29,6 +29,11 @@
                 "name": "R",
                 "date": "2022-11-28T13:02:07.368-08:00",
                 "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-16T15:00:48.499-08:00",
+                "comment": "Frac Rec 100"
             }
         ]
     },
@@ -149,6 +154,11 @@
             },
             "distillation_data": {
                 "type": "volume fraction",
+                "fraction_recovered": {
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                },
                 "cuts": [
                     {
                         "fraction": {
@@ -352,9 +362,6 @@
                 ]
             }
         }
-    ],
-    "status": [
-        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"
