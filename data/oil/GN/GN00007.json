@@ -16,7 +16,15 @@
             "Generic Oil",
             "Medium Crude"
         ],
-        "gnome_suitable": true
+        "model_completeness": 84,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "Chris",
+                "date": "2024-01-17T13:08:33.999-08:00",
+                "comment": "no change -- just to trigger refresh"
+            }
+        ]
     },
     "sub_samples": [
         {

@@ -15,10 +15,19 @@
             "Aviation Gas",
             "Distillate Fuel",
             "Fuel Oil",
+            "Generic Oil",
             "Jet Fuel",
             "Kerosene"
         ],
-        "gnome_suitable": true
+        "model_completeness": 64,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "Chris",
+                "date": "2024-01-17T13:05:09.791-08:00",
+                "comment": "Add Generic Label"
+            }
+        ]
     },
     "sub_samples": [
         {

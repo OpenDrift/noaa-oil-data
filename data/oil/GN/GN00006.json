@@ -16,7 +16,15 @@
             "Generic Oil",
             "Light Crude"
         ],
-        "gnome_suitable": true
+        "model_completeness": 84,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "Dalina",
+                "date": "2024-01-17T13:09:23.327-08:00",
+                "comment": "Test edit - no change made - Trigger completeness score calculation"
+            }
+        ]
     },
     "sub_samples": [
         {

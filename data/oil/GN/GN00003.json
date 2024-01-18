@@ -16,9 +16,18 @@
             "Distillate Fuel",
             "Fuel Oil",
             "Gasoline",
+            "Generic Oil",
             "Refined Product"
         ],
-        "gnome_suitable": true
+        "model_completeness": 64,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "Dalina Thrift-Viveros",
+                "date": "2024-01-17T13:04:22.280-08:00",
+                "comment": "Adding Generic Oil Label"
+            }
+        ]
     },
     "sub_samples": [
         {

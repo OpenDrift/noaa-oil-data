@@ -16,7 +16,15 @@
             "Generic Oil",
             "Heavy Crude"
         ],
-        "gnome_suitable": true
+        "model_completeness": 84,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "Dalina",
+                "date": "2024-01-17T13:07:37.439-08:00",
+                "comment": "Test - no edits made"
+            }
+        ]
     },
     "sub_samples": [
         {

@@ -16,12 +16,21 @@
             "Distillate Fuel",
             "Fuel Oil",
             "Gas Oil",
+            "Generic Oil",
             "Home Heating Oil",
             "MDO",
             "No. 2 Fuel Oil",
             "Refined Product"
         ],
-        "gnome_suitable": true
+        "model_completeness": 64,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "Dalina",
+                "date": "2024-01-17T13:05:05.214-08:00",
+                "comment": "Adding Generic Oil Label"
+            }
+        ]
     },
     "sub_samples": [
         {

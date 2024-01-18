@@ -16,7 +16,15 @@
             "Crude Oil",
             "Generic Oil"
         ],
-        "gnome_suitable": true
+        "model_completeness": 64,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "Dalina",
+                "date": "2024-01-17T13:08:28.429-08:00",
+                "comment": "Test edit - no change made"
+            }
+        ]
     },
     "sub_samples": [
         {
