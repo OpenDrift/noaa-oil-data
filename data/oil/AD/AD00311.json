@@ -166,6 +166,7 @@
         }
     ],
     "status": [
+        "E062: Viscosity data is not strictly decreasing",
         "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {

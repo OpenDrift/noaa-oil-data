@@ -142,6 +142,7 @@
         }
     ],
     "status": [
+        "E062: Viscosity data is not strictly decreasing",
         "W100: Not GNOME compatible: Distillation data required for Solvent. Oil not suitable for use in Gnome"
     ],
     "review_status": {

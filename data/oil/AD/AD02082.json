@@ -334,6 +334,9 @@
             ]
         }
     ],
+    "status": [
+        "E062: Viscosity data is not strictly decreasing"
+    ],
     "review_status": {
         "status": "Not Reviewed"
     }
