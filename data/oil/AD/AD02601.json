@@ -10,13 +10,13 @@
             "reference": "Summary of WP3, \u201cPhysical-chemical characterisation of 13 LSFO\""
         },
         "sample_date": "2022-05-31",
-        "product_type": "Distillate Fuel Oil",
+        "product_type": "Residual Fuel Oil",
         "API": 25.6,
         "labels": [
-            "Distillate Fuel",
             "Fuel Oil",
             "LSFO",
             "Refined Product",
+            "Residual Fuel",
             "ULSFO",
             "VLSFO"
         ],
@@ -67,6 +67,11 @@
                 "name": "RM",
                 "date": "2023-11-22T10:25:30.513-08:00",
                 "comment": "Removing Problem TBP"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-25T14:05:58.484-08:00",
+                "comment": "changed to residual fuel oil"
             }
         ]
     },

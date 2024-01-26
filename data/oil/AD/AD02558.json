@@ -21,6 +21,11 @@
                 "name": "R",
                 "date": "2022-11-28T12:12:39.739-08:00",
                 "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-01-25T13:18:52.432-08:00",
+                "comment": "Deleted a clearly erroneous distillation point"
             }
         ]
     },
@@ -185,18 +190,6 @@
                     },
                     {
                         "fraction": {
-                            "value": 0.283,
-                            "unit": "fraction",
-                            "unit_type": "massfraction"
-                        },
-                        "vapor_temp": {
-                            "value": 350.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    },
-                    {
-                        "fraction": {
                             "value": 0.617,
                             "unit": "fraction",
                             "unit_type": "massfraction"
@@ -272,7 +265,6 @@
         }
     ],
     "status": [
-        "E060: Oil fraction in distillation cuts is not accumulative",
         "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
