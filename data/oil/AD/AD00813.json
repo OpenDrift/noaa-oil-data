@@ -17,7 +17,7 @@
             "Medium Crude"
         ],
         "model_completeness": 20,
-        "gnome_suitable": true,
+        "gnome_suitable": false,
         "change_log": [
             {
                 "name": "R",
@@ -100,6 +100,10 @@
                 "type": "mass fraction"
             }
         }
+    ],
+    "status": [
+        "E062: Viscosity data is not strictly decreasing",
+        "W100: Not GNOME compatible: Viscosities must be decreasing with temperature"
     ],
     "review_status": {
         "status": "Not Reviewed"

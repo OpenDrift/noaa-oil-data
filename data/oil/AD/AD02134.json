@@ -19,7 +19,7 @@
             "Refined Product"
         ],
         "model_completeness": 63,
-        "gnome_suitable": true,
+        "gnome_suitable": false,
         "change_log": [
             {
                 "name": "RM",
@@ -340,7 +340,8 @@
         }
     ],
     "status": [
-        "E062: Viscosity data is not strictly decreasing"
+        "E062: Viscosity data is not strictly decreasing",
+        "W100: Not GNOME compatible: Viscosities must be decreasing with temperature"
     ],
     "review_status": {
         "status": "Not Reviewed"
