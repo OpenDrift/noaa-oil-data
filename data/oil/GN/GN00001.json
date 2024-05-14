@@ -23,6 +23,21 @@
                 "name": "Dalina",
                 "date": "2024-01-17T13:08:28.429-08:00",
                 "comment": "Test edit - no change made"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-10T14:33:10.246-07:00",
+                "comment": "Changes made to visc. code"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-10T14:34:22.528-07:00",
+                "comment": "Changes made to visc. code"
+            },
+            {
+                "name": "RM",
+                "date": "2024-05-01T15:02:45.086-07:00",
+                "comment": "Bulk Composition values had mass fraction values reported as %. Fixed"
             }
         ]
     },
@@ -88,8 +103,8 @@
                 "kinematic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 2.23139e-06,
-                            "unit": "m^2/s",
+                            "value": 4.246,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -100,8 +115,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 1.56917e-06,
-                            "unit": "m^2/s",
+                            "value": 2.191,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -112,8 +127,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 1.26557e-06,
-                            "unit": "m^2/s",
+                            "value": 1.463,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -126,17 +141,17 @@
             },
             "SARA": {
                 "saturates": {
-                    "value": 0.8527,
+                    "value": 85.0,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
                 "aromatics": {
-                    "value": 0.099,
+                    "value": 9.9,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
                 "asphaltenes": {
-                    "value": 0.000425,
+                    "value": 0.042,
                     "unit": "%",
                     "unit_type": "massfraction"
                 }

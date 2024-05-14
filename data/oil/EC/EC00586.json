@@ -10,7 +10,7 @@
             "reference": "Environment and Climate Change Canada, Environment Canada Crude Oil and Petroleum Product Database, Environment and Climate Change Canada, 2021.\n\nurl: https://open.canada.ca/data/en/dataset/53c38f91-35c8-49a6-a437-b311703db8c5"
         },
         "sample_date": "2000-07-01",
-        "product_type": "Refined Product NOS",
+        "product_type": "Residual Fuel Oil",
         "API": 11.62,
         "comments": "Via U.S. Dept. Int., M.M.S., Ohmsett",
         "labels": [
@@ -19,8 +19,20 @@
             "Residual Fuel",
             "Transformer Oil"
         ],
-        "model_completeness": 93,
-        "gnome_suitable": true
+        "model_completeness": 99,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "RM",
+                "date": "2024-04-03T15:27:56.538-07:00",
+                "comment": "Changed Product Type to Residual Fuel Oil"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-03T15:27:57.655-07:00",
+                "comment": "Changed Product Type to Residual Fuel Oil"
+            }
+        ]
     },
     "sub_samples": [
         {

@@ -26,6 +26,21 @@
                 "name": "Chris",
                 "date": "2024-01-17T13:05:09.791-08:00",
                 "comment": "Add Generic Label"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-10T14:36:48.572-07:00",
+                "comment": "Changes made to visc. code"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-17T15:28:24.198-07:00",
+                "comment": "IFT added to generic Jet fuel"
+            },
+            {
+                "name": "RM",
+                "date": "2024-05-01T15:01:58.875-07:00",
+                "comment": "Bulk Composition values had mass fraction values reported as %. Fixed"
             }
         ]
     },
@@ -91,8 +106,8 @@
                 "kinematic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 3.15766e-06,
-                            "unit": "m^2/s",
+                            "value": 3.248,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -103,8 +118,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 2.12195e-06,
-                            "unit": "m^2/s",
+                            "value": 2.232,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -115,8 +130,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 1.66457e-06,
-                            "unit": "m^2/s",
+                            "value": 1.774,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -125,11 +140,65 @@
                             "unit_type": "temperature"
                         }
                     }
+                ],
+                "interfacial_tension_air": [
+                    {
+                        "tension": {
+                            "value": 0.0407,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_water": [
+                    {
+                        "tension": {
+                            "value": 0.034,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 20.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_seawater": [
+                    {
+                        "tension": {
+                            "value": 0.0374,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.0365,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 20.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
                 ]
             },
             "SARA": {
                 "aromatics": {
-                    "value": 0.1742,
+                    "value": 17.0,
                     "unit": "%",
                     "unit_type": "massfraction"
                 }

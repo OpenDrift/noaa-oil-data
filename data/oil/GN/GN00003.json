@@ -26,6 +26,21 @@
                 "name": "Dalina Thrift-Viveros",
                 "date": "2024-01-17T13:04:22.280-08:00",
                 "comment": "Adding Generic Oil Label"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-10T14:36:05.716-07:00",
+                "comment": "Changes made to visc. code"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-17T15:17:38.520-07:00",
+                "comment": "IFT to generic gasoline"
+            },
+            {
+                "name": "RM",
+                "date": "2024-05-09T09:16:45.302-07:00",
+                "comment": "removed 100% evaporated"
             }
         ]
     },
@@ -91,8 +106,8 @@
                 "kinematic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 1.39087e-06,
-                            "unit": "m^2/s",
+                            "value": 1.023,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -103,8 +118,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 1.15507e-06,
-                            "unit": "m^2/s",
+                            "value": 1.012,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -115,12 +130,76 @@
                     },
                     {
                         "viscosity": {
-                            "value": 1.03118e-06,
-                            "unit": "m^2/s",
+                            "value": 1.005,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
                             "value": 25.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_water": [
+                    {
+                        "tension": {
+                            "value": 0.019416667,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.03025,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.05,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 20.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_seawater": [
+                    {
+                        "tension": {
+                            "value": 0.02855,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.01656,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -393,25 +472,6 @@
                             "unit": "C",
                             "unit_type": "temperature"
                         }
-                    }
-                ]
-            }
-        },
-        {
-            "metadata": {
-                "name": "Emulsion Pseudo Record: 100(%) Evaporated",
-                "short_name": "100(%) Evaporated",
-                "description": "Pseudo-record to capture evaporated  in order for emulsion to form.",
-                "fraction_evaporated": {
-                    "value": 1.0,
-                    "unit": "Fraction",
-                    "unit_type": "massfraction"
-                }
-            },
-            "environmental_behavior": {
-                "emulsions": [
-                    {
-                        "visual_stability": "Unknown stability"
                     }
                 ]
             }

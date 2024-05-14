@@ -18,13 +18,18 @@
             "Crude Oil",
             "Heavy Crude"
         ],
-        "model_completeness": 91,
-        "gnome_suitable": false,
+        "model_completeness": 99,
+        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "R",
                 "date": "2022-11-28T10:20:53.506-08:00",
                 "comment": "Issue #27 -- Normalize Location"
+            },
+            {
+                "name": "Chris B",
+                "date": "2024-05-06T13:13:20.008-07:00",
+                "comment": "Changed fgraction recovered to 100% -- method is correct for that."
             }
         ]
     },
@@ -383,9 +388,9 @@
                     "unit_type": "temperature"
                 },
                 "fraction_recovered": {
-                    "unit": "fraction",
-                    "max_value": 1.0,
-                    "unit_type": "concentration"
+                    "value": 100.0,
+                    "unit": "%",
+                    "unit_type": "massfraction"
                 },
                 "cuts": [
                     {
@@ -4140,9 +4145,6 @@
                 ]
             }
         }
-    ],
-    "status": [
-        "W100: Not GNOME compatible: Fraction recovered less than 1 for Bitumen Blend. Oil not suitable for use in Gnome"
     ],
     "review_status": {
         "status": "Not Reviewed"

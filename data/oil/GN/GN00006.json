@@ -23,6 +23,21 @@
                 "name": "Dalina",
                 "date": "2024-01-17T13:09:23.327-08:00",
                 "comment": "Test edit - no change made - Trigger completeness score calculation"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-10T14:28:33.953-07:00",
+                "comment": "Changes made to visc. code"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-16T14:03:04.786-07:00",
+                "comment": "Added IFT"
+            },
+            {
+                "name": "RM",
+                "date": "2024-05-01T15:00:15.607-07:00",
+                "comment": "Bulk Composition values had mass fraction values reported as %. Fixed"
             }
         ]
     },
@@ -88,8 +103,8 @@
                 "kinematic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 1.0202e-05,
-                            "unit": "m^2/s",
+                            "value": 17.4644,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -100,8 +115,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 5.95042e-06,
-                            "unit": "m^2/s",
+                            "value": 7.686,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -112,8 +127,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 4.28105e-06,
-                            "unit": "m^2/s",
+                            "value": 4.656,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -122,26 +137,212 @@
                             "unit_type": "temperature"
                         }
                     }
+                ],
+                "interfacial_tension_air": [
+                    {
+                        "tension": {
+                            "value": 0.027342857,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.0244,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 5.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.025777778,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_water": [
+                    {
+                        "tension": {
+                            "value": 0.023462857,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.0281,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 5.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.008,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 13.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.022295455,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.0273,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 25.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_seawater": [
+                    {
+                        "tension": {
+                            "value": 0.020361111,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.0259,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 5.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.02,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 13.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.020247826,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.014175,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 20.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.0195,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 25.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.023,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 30.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
                 ]
             },
             "SARA": {
                 "saturates": {
-                    "value": 0.7303,
+                    "value": 73.0,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
                 "aromatics": {
-                    "value": 0.2145,
+                    "value": 21.0,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
                 "resins": {
-                    "value": 0.04507,
+                    "value": 4.5,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
                 "asphaltenes": {
-                    "value": 0.007628,
+                    "value": 0.76,
                     "unit": "%",
                     "unit_type": "massfraction"
                 }

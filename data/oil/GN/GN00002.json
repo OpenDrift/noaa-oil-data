@@ -29,6 +29,31 @@
                 "name": "Dalina",
                 "date": "2024-01-17T13:05:05.214-08:00",
                 "comment": "Adding Generic Oil Label"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-10T14:35:17.251-07:00",
+                "comment": "Changes made to visc. code"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-17T15:03:53.489-07:00",
+                "comment": "Added IFT to generic diesel"
+            },
+            {
+                "name": "RM",
+                "date": "2024-04-17T15:04:21.218-07:00",
+                "comment": "IFT to gen diesel"
+            },
+            {
+                "name": "RM",
+                "date": "2024-05-01T15:03:18.813-07:00",
+                "comment": "Bulk Composition values had mass fraction values reported as %. Fixed"
+            },
+            {
+                "name": "RM",
+                "date": "2024-05-09T09:16:22.202-07:00",
+                "comment": "removed 100% evaporated"
             }
         ]
     },
@@ -94,8 +119,8 @@
                 "kinematic_viscosities": [
                     {
                         "viscosity": {
-                            "value": 9.92175e-06,
-                            "unit": "m^2/s",
+                            "value": 15.416,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -106,8 +131,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 5.81026e-06,
-                            "unit": "m^2/s",
+                            "value": 7.472,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -118,8 +143,8 @@
                     },
                     {
                         "viscosity": {
-                            "value": 4.19049e-06,
-                            "unit": "m^2/s",
+                            "value": 4.801,
+                            "unit": "cSt",
                             "unit_type": "kinematicviscosity"
                         },
                         "ref_temp": {
@@ -128,26 +153,104 @@
                             "unit_type": "temperature"
                         }
                     }
+                ],
+                "interfacial_tension_air": [
+                    {
+                        "tension": {
+                            "value": 0.0287,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.0275,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_water": [
+                    {
+                        "tension": {
+                            "value": 0.023025,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.01815,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
+                ],
+                "interfacial_tension_seawater": [
+                    {
+                        "tension": {
+                            "value": 0.0217,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 0.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    },
+                    {
+                        "tension": {
+                            "value": 0.01585,
+                            "unit": "N/m",
+                            "unit_type": "interfacialtension"
+                        },
+                        "ref_temp": {
+                            "value": 15.0,
+                            "unit": "C",
+                            "unit_type": "temperature"
+                        }
+                    }
                 ]
             },
             "SARA": {
                 "saturates": {
-                    "value": 0.7276,
+                    "value": 73.0,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
                 "aromatics": {
-                    "value": 0.2604,
+                    "value": 26.0,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
                 "resins": {
-                    "value": 0.02,
+                    "value": 2.0,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
                 "asphaltenes": {
-                    "value": 0.00011,
+                    "value": 0.011,
                     "unit": "%",
                     "unit_type": "massfraction"
                 }
@@ -411,25 +514,6 @@
                             "unit": "C",
                             "unit_type": "temperature"
                         }
-                    }
-                ]
-            }
-        },
-        {
-            "metadata": {
-                "name": "Emulsion Pseudo Record: 100(%) Evaporated",
-                "short_name": "100(%) Evaporated",
-                "description": "Pseudo-record to capture evaporated  in order for emulsion to form.",
-                "fraction_evaporated": {
-                    "value": 1.0,
-                    "unit": "Fraction",
-                    "unit_type": "massfraction"
-                }
-            },
-            "environmental_behavior": {
-                "emulsions": [
-                    {
-                        "visual_stability": "Unknown stability"
                     }
                 ]
             }

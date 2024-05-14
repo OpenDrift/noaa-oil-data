@@ -15,7 +15,7 @@
             "Refinery Intermediate"
         ],
         "model_completeness": 56,
-        "gnome_suitable": true,
+        "gnome_suitable": false,
         "change_log": [
             {
                 "name": "RM",
@@ -271,6 +271,9 @@
                 }
             ]
         }
+    ],
+    "status": [
+        "W100: Not GNOME compatible: Unable to estimate kv2 for Refinery Intermediate. Oil LS00015 not suitable for use in Gnome."
     ],
     "review_status": {
         "status": "Not Reviewed"

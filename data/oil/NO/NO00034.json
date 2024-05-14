@@ -27,6 +27,16 @@
                 "name": "R",
                 "date": "2022-11-28T12:06:18.390-08:00",
                 "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "RM",
+                "date": "2024-03-13T13:59:16.956-07:00",
+                "comment": "Added Bulk Composition Data for the weathered fractions"
+            },
+            {
+                "name": "RM",
+                "date": "2024-03-13T14:07:33.569-07:00",
+                "comment": "added phys properties and weathering data/bulk comp"
             }
         ]
     },
@@ -74,6 +84,11 @@
                             "value": 278.15,
                             "unit": "K",
                             "unit_type": "temperature"
+                        },
+                        "shear_rate": {
+                            "value": 10.0,
+                            "unit": "1/s",
+                            "unit_type": "angularvelocity"
                         }
                     }
                 ]
@@ -292,6 +307,13 @@
                 }
             },
             "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": -3.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
                 "densities": [
                     {
                         "density": {
@@ -317,10 +339,35 @@
                             "value": 278.15,
                             "unit": "K",
                             "unit_type": "temperature"
+                        },
+                        "shear_rate": {
+                            "value": 10.0,
+                            "unit": "1/s",
+                            "unit_type": "angularvelocity"
                         }
                     }
                 ]
-            }
+            },
+            "SARA": {
+                "asphaltenes": {
+                    "value": 0.04,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                }
+            },
+            "bulk_composition": [
+                {
+                    "name": "wax_content",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "measurement": {
+                        "value": 0.049,
+                        "unit": "1",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
         },
         {
             "metadata": {
@@ -333,6 +380,13 @@
                 }
             },
             "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 9.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
                 "densities": [
                     {
                         "density": {
@@ -358,10 +412,35 @@
                             "value": 278.15,
                             "unit": "K",
                             "unit_type": "temperature"
+                        },
+                        "shear_rate": {
+                            "value": 10.0,
+                            "unit": "1/s",
+                            "unit_type": "angularvelocity"
                         }
                     }
                 ]
-            }
+            },
+            "SARA": {
+                "asphaltenes": {
+                    "value": 0.04,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                }
+            },
+            "bulk_composition": [
+                {
+                    "name": "wax_content",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "measurement": {
+                        "value": 0.055,
+                        "unit": "1",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
         },
         {
             "metadata": {
@@ -374,6 +453,13 @@
                 }
             },
             "physical_properties": {
+                "pour_point": {
+                    "measurement": {
+                        "value": 18.0,
+                        "unit": "C",
+                        "unit_type": "temperature"
+                    }
+                },
                 "densities": [
                     {
                         "density": {
@@ -399,10 +485,35 @@
                             "value": 278.15,
                             "unit": "K",
                             "unit_type": "temperature"
+                        },
+                        "shear_rate": {
+                            "value": 10.0,
+                            "unit": "1/s",
+                            "unit_type": "angularvelocity"
                         }
                     }
                 ]
-            }
+            },
+            "SARA": {
+                "asphaltenes": {
+                    "value": 0.05,
+                    "unit": "%",
+                    "unit_type": "massfraction"
+                }
+            },
+            "bulk_composition": [
+                {
+                    "name": "wax_content",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "measurement": {
+                        "value": 0.067,
+                        "unit": "1",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
         }
     ],
     "status": [
