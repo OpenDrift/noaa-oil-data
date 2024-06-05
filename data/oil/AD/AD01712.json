@@ -20,8 +20,15 @@
             "Residual Fuel",
             "Transformer Oil"
         ],
-        "model_completeness": 48,
-        "gnome_suitable": false
+        "model_completeness": 43,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "jeff",
+                "date": "2024-06-04T13:57:00.149-07:00",
+                "comment": "removed repeat of data in dyn vis"
+            }
+        ]
     },
     "sub_samples": [
         {
@@ -84,18 +91,6 @@
                         },
                         "ref_temp": {
                             "value": 0.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    },
-                    {
-                        "viscosity": {
-                            "value": 0.002,
-                            "unit": "kg/(m s)",
-                            "unit_type": "dynamicviscosity"
-                        },
-                        "ref_temp": {
-                            "value": 15.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -285,9 +280,7 @@
         }
     ],
     "status": [
-        "E062: Viscosity data is not strictly decreasing",
-        "W009: Distillation fraction recovered is missing or invalid",
-        "W100: Not GNOME compatible: Viscosities must be decreasing with temperature"
+        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

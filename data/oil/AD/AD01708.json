@@ -15,8 +15,15 @@
             "Refined Product",
             "Solvent"
         ],
-        "model_completeness": 22,
-        "gnome_suitable": false
+        "model_completeness": 19,
+        "gnome_suitable": false,
+        "change_log": [
+            {
+                "name": "jeff",
+                "date": "2024-06-04T13:56:04.102-07:00",
+                "comment": "removed repeat in of data in dyn vis field"
+            }
+        ]
     },
     "sub_samples": [
         {
@@ -68,18 +75,6 @@
                             "unit": "C",
                             "unit_type": "temperature"
                         }
-                    },
-                    {
-                        "viscosity": {
-                            "value": 0.0003,
-                            "unit": "kg/(m s)",
-                            "unit_type": "dynamicviscosity"
-                        },
-                        "ref_temp": {
-                            "value": 15.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
                     }
                 ],
                 "interfacial_tension_water": [
@@ -117,8 +112,7 @@
         }
     ],
     "status": [
-        "E062: Viscosity data is not strictly decreasing",
-        "W100: Not GNOME compatible: Viscosities must be decreasing with temperature"
+        "W100: Not GNOME compatible: Distillation data required for Solvent. Oil not suitable for use in Gnome"
     ],
     "review_status": {
         "status": "Not Reviewed"

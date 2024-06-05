@@ -15,13 +15,18 @@
             "Crude Oil",
             "Light Crude"
         ],
-        "model_completeness": 44,
-        "gnome_suitable": false,
+        "model_completeness": 43,
+        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "R",
                 "date": "2022-11-28T11:39:54.141-08:00",
                 "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "jeff",
+                "date": "2024-06-04T13:46:45.375-07:00",
+                "comment": "removed bad data in kin vis"
             }
         ]
     },
@@ -80,18 +85,6 @@
                         },
                         "ref_temp": {
                             "value": 16.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    },
-                    {
-                        "viscosity": {
-                            "value": 3.82e-06,
-                            "unit": "m^2/s",
-                            "unit_type": "kinematicviscosity"
-                        },
-                        "ref_temp": {
-                            "value": 27.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -238,9 +231,7 @@
         }
     ],
     "status": [
-        "E062: Viscosity data is not strictly decreasing",
-        "W009: Distillation fraction recovered is missing or invalid",
-        "W100: Not GNOME compatible: Viscosities must be decreasing with temperature"
+        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"
