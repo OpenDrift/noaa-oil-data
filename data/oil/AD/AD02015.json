@@ -18,8 +18,15 @@
             "Gasoline",
             "Refined Product"
         ],
-        "model_completeness": 49,
-        "gnome_suitable": false
+        "model_completeness": 43,
+        "gnome_suitable": true,
+        "change_log": [
+            {
+                "name": "jeff",
+                "date": "2024-06-05T11:55:41.435-07:00",
+                "comment": "edit to Dyn Vis"
+            }
+        ]
     },
     "sub_samples": [
         {
@@ -68,18 +75,6 @@
                         },
                         "ref_temp": {
                             "value": 0.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    },
-                    {
-                        "viscosity": {
-                            "value": 0.001,
-                            "unit": "kg/(m s)",
-                            "unit_type": "dynamicviscosity"
-                        },
-                        "ref_temp": {
-                            "value": 15.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -278,9 +273,7 @@
         }
     ],
     "status": [
-        "E062: Viscosity data is not strictly decreasing",
-        "W009: Distillation fraction recovered is missing or invalid",
-        "W100: Not GNOME compatible: Viscosities must be decreasing with temperature"
+        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

@@ -14,7 +14,7 @@
         "labels": [
             "Crude Oil"
         ],
-        "model_completeness": 44,
+        "model_completeness": 40,
         "location_coordinates": {
             "type": "Polygon",
             "coordinates": [
@@ -38,7 +38,7 @@
                 ]
             ]
         },
-        "gnome_suitable": false,
+        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "Rin",
@@ -49,6 +49,11 @@
                 "name": "R",
                 "date": "2022-11-28T11:55:44.308-08:00",
                 "comment": "Issue #27 - Normalize Location"
+            },
+            {
+                "name": "jeff",
+                "date": "2024-06-05T11:59:25.000-07:00",
+                "comment": "edit to kin vis"
             }
         ]
     },
@@ -94,18 +99,6 @@
                         },
                         "ref_temp": {
                             "value": 20.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    },
-                    {
-                        "viscosity": {
-                            "value": 1e-06,
-                            "unit": "m^2/s",
-                            "unit_type": "kinematicviscosity"
-                        },
-                        "ref_temp": {
-                            "value": 40.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -283,9 +276,7 @@
         }
     ],
     "status": [
-        "E062: Viscosity data is not strictly decreasing",
-        "W009: Distillation fraction recovered is missing or invalid",
-        "W100: Not GNOME compatible: Viscosities must be decreasing with temperature"
+        "W009: Distillation fraction recovered is missing or invalid"
     ],
     "review_status": {
         "status": "Not Reviewed"

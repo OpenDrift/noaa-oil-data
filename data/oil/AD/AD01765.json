@@ -16,8 +16,8 @@
             "Fuel Oil",
             "Refined Product"
         ],
-        "model_completeness": 63,
-        "gnome_suitable": false,
+        "model_completeness": 59,
+        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "R",
@@ -33,6 +33,11 @@
                 "name": "RM",
                 "date": "2024-01-12T09:35:51.569-08:00",
                 "comment": "\u2013 Distillate Fuel Oil: Fraction Recovered Changed to 100%"
+            },
+            {
+                "name": "jeff",
+                "date": "2024-06-05T10:33:57.411-07:00",
+                "comment": "deleted error in dyn visc value"
             }
         ]
     },
@@ -97,18 +102,6 @@
                         },
                         "ref_temp": {
                             "value": 0.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    },
-                    {
-                        "viscosity": {
-                            "value": 0.002,
-                            "unit": "kg/(m s)",
-                            "unit_type": "dynamicviscosity"
-                        },
-                        "ref_temp": {
-                            "value": 15.0,
                             "unit": "C",
                             "unit_type": "temperature"
                         }
@@ -248,10 +241,6 @@
                 }
             ]
         }
-    ],
-    "status": [
-        "E062: Viscosity data is not strictly decreasing",
-        "W100: Not GNOME compatible: Viscosities must be decreasing with temperature"
     ],
     "review_status": {
         "status": "Not Reviewed"
