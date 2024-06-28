@@ -8,10 +8,12 @@
             "year": 2024,
             "reference": "AmSpec Certificate of Analysis provided to SSC Paige Doelling on 23 May 2024."
         },
-        "product_type": "Crude Oil NOS",
+        "sample_date": "2024-05-18",
+        "product_type": "Refinery Intermediate",
         "API": 26.0,
-        "model_completeness": 56,
-        "gnome_suitable": true,
+        "comments": "Product spilled in the Pelican Island Bridge Allision incident: Galveston, TX, USA  2024-05-15",
+        "model_completeness": 48,
+        "gnome_suitable": false,
         "change_log": [
             {
                 "name": "Dalina",
@@ -27,6 +29,21 @@
                 "name": "Dalina",
                 "date": "2024-05-23T12:21:11.332-07:00",
                 "comment": "Changed Product Type to Crude so that it could be run in GNOME (removed viscosity estimation restriction for refinery intermediates)."
+            },
+            {
+                "name": "Chris",
+                "date": "2024-06-28T10:27:14.390-07:00",
+                "comment": "Removed \"fake\" data and added sulfur"
+            },
+            {
+                "name": "Chris",
+                "date": "2024-06-28T10:29:56.723-07:00",
+                "comment": "Added note about incident"
+            },
+            {
+                "name": "Chris",
+                "date": "2024-06-28T10:33:15.911-07:00",
+                "comment": "updated units for sulfur"
             }
         ]
     },
@@ -52,7 +69,7 @@
                 "flash_point": {
                     "measurement": {
                         "unit": "C",
-                        "min_value": 230.0,
+                        "min_value": 110.0,
                         "unit_type": "temperature"
                     }
                 },
@@ -69,20 +86,6 @@
                             "unit_type": "temperature"
                         }
                     }
-                ],
-                "kinematic_viscosities": [
-                    {
-                        "viscosity": {
-                            "value": 30.0,
-                            "unit": "cSt",
-                            "unit_type": "kinematicviscosity"
-                        },
-                        "ref_temp": {
-                            "value": 50.0,
-                            "unit": "C",
-                            "unit_type": "temperature"
-                        }
-                    }
                 ]
             },
             "distillation_data": {
@@ -94,7 +97,7 @@
                     "unit_type": "temperature"
                 },
                 "fraction_recovered": {
-                    "value": 84.0,
+                    "value": 100.0,
                     "unit": "%",
                     "unit_type": "massfraction"
                 },
@@ -172,8 +175,25 @@
                         }
                     }
                 ]
-            }
+            },
+            "compounds": [
+                {
+                    "name": "Sulfur",
+                    "groups": [
+                        "Ungrouped"
+                    ],
+                    "method": "ASTM D4294",
+                    "measurement": {
+                        "value": 0.0038,
+                        "unit": "1",
+                        "unit_type": "massfraction"
+                    }
+                }
+            ]
         }
+    ],
+    "status": [
+        "W100: Not GNOME compatible: Gnome oil needs at least one viscosity value"
     ],
     "review_status": {
         "status": "Not Reviewed"
