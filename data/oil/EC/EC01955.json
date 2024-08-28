@@ -15,8 +15,10 @@
         "comments": "Via Ohmsett Facility\nNote: This oil is unusually viscous for an IFO 180. ",
         "labels": [
             "Fuel Oil",
+            "LSFO",
             "Refined Product",
-            "Residual Fuel"
+            "Residual Fuel",
+            "VLSFO"
         ],
         "model_completeness": 99,
         "gnome_suitable": true,
