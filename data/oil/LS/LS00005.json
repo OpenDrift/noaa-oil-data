@@ -3,6 +3,7 @@
     "adios_data_model_version": "0.12.0",
     "metadata": {
         "name": "RMG 380",
+        "source_id": "LSU-35, RPI-04",
         "reference": {
             "year": 2021,
             "reference": "LSU analysis as part of MPRI project, 2021"
@@ -58,6 +59,16 @@
                 "name": "Chris ",
                 "date": "2023-06-21T15:14:58.509-07:00",
                 "comment": "Added Labels"
+            },
+            {
+                "name": "Dalina",
+                "date": "2024-08-22T15:00:21.469-07:00",
+                "comment": "QA-ing record"
+            },
+            {
+                "name": "Dalina",
+                "date": "2024-08-23T14:14:29.621-07:00",
+                "comment": "Source IDs"
             }
         ]
     },
@@ -82,8 +93,8 @@
                 },
                 "flash_point": {
                     "measurement": {
-                        "value": 137.78,
                         "unit": "C",
+                        "min_value": 137.78,
                         "unit_type": "temperature"
                     }
                 },
