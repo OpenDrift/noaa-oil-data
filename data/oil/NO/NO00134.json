@@ -4,7 +4,7 @@
     "metadata": {
         "name": "OSEBERG SOR",
         "source_id": "NO00134",
-        "location": "NORWAY",
+        "location": "Norway",
         "reference": {
             "year": 2000,
             "reference": "Leirvik F. and Moldestad M.O., 2001, Oseberg Sor - Egenskaper og forvitring pa sjoen relatert til beredskap, SINTEF report"
@@ -12,13 +12,21 @@
         "sample_date": "2000",
         "product_type": "Crude Oil NOS",
         "API": 39.23,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
         "model_completeness": 53,
-        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "Knut-Frode Dagestad",
                 "date": "2023-11-23T17:12:52.821386",
                 "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
+            },
+            {
+                "name": "Knut-Frode Dagestad",
+                "date": "2023-12-11T18:51:33.506556",
+                "comment": "Changed *max_value* to *value* for fraction_recovered."
             }
         ]
     },
@@ -89,8 +97,8 @@
             "distillation_data": {
                 "type": "volume fraction",
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 },
                 "cuts": [
@@ -211,8 +219,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
@@ -259,8 +267,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
@@ -307,8 +315,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }

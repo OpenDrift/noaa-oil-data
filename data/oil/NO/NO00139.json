@@ -4,7 +4,7 @@
     "metadata": {
         "name": "VISUND SOR CONDENSATE",
         "source_id": "NO00139",
-        "location": "NORWAY",
+        "location": "Norway",
         "reference": {
             "year": 2020,
             "reference": "Sorheim K. R. et al. 2020, SINTEF report"
@@ -12,8 +12,11 @@
         "sample_date": "2020",
         "product_type": "Condensate",
         "API": 59.01,
+        "labels": [
+            "Condensate",
+            "Crude Oil"
+        ],
         "model_completeness": 64,
-        "gnome_suitable": false,
         "change_log": [
             {
                 "name": "Knut-Frode Dagestad",
@@ -94,8 +97,8 @@
             "distillation_data": {
                 "type": "volume fraction",
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 },
                 "cuts": [
@@ -248,8 +251,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
@@ -296,8 +299,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
@@ -344,15 +347,12 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
         }
-    ],
-    "status": [
-        "W100: Not GNOME compatible: Fraction recovered less than 1 for Condensate. Oil not suitable for use in Gnome"
     ],
     "review_status": {
         "status": "Not Reviewed"

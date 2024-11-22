@@ -4,7 +4,7 @@
     "metadata": {
         "name": "SYGNA BRENT",
         "source_id": "NO00151",
-        "location": "NORWAY",
+        "location": "Norway",
         "reference": {
             "year": 2021,
             "reference": "Sorheim et al., 2021, Characterization of oil properties and weathering studies on Statfjord crude oils"
@@ -12,13 +12,21 @@
         "sample_date": "2021",
         "product_type": "Crude Oil NOS",
         "API": 36.19,
+        "labels": [
+            "Crude Oil",
+            "Light Crude"
+        ],
         "model_completeness": 64,
-        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "Knut-Frode Dagestad",
                 "date": "2023-11-23T17:12:52.932326",
                 "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
+            },
+            {
+                "name": "Knut-Frode Dagestad",
+                "date": "2023-12-11T18:51:33.888141",
+                "comment": "Changed *max_value* to *value* for fraction_recovered."
             }
         ]
     },
@@ -89,8 +97,8 @@
             "distillation_data": {
                 "type": "volume fraction",
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 },
                 "cuts": [
@@ -317,8 +325,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
@@ -365,8 +373,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
@@ -413,8 +421,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }

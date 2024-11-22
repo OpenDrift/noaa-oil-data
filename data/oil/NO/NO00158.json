@@ -4,7 +4,7 @@
     "metadata": {
         "name": "GOLIAT REALGRUNNEN",
         "source_id": "NO00158",
-        "location": "NORWAY",
+        "location": "Norway",
         "reference": {
             "year": 2001,
             "reference": "Moldestad et al., 2001, Goliat - weathering properties, appearance code, water solubility and toxicity"
@@ -12,13 +12,21 @@
         "sample_date": "2001",
         "product_type": "Crude Oil NOS",
         "API": 33.45,
+        "labels": [
+            "Crude Oil",
+            "Medium Crude"
+        ],
         "model_completeness": 61,
-        "gnome_suitable": true,
         "change_log": [
             {
                 "name": "Knut-Frode Dagestad",
                 "date": "2023-11-23T17:12:53.028154",
                 "comment": "Added sample_date and fraction_recovered. Fixed .15 C/K issues"
+            },
+            {
+                "name": "Knut-Frode Dagestad",
+                "date": "2023-12-11T18:51:34.120654",
+                "comment": "Changed *max_value* to *value* for fraction_recovered."
             }
         ]
     },
@@ -89,8 +97,8 @@
             "distillation_data": {
                 "type": "volume fraction",
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 },
                 "cuts": [
@@ -209,8 +217,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
@@ -257,8 +265,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
@@ -305,8 +313,8 @@
             },
             "distillation_data": {
                 "fraction_recovered": {
+                    "value": 1.0,
                     "unit": "fraction",
-                    "max_value": 1.0,
                     "unit_type": "concentration"
                 }
             }
