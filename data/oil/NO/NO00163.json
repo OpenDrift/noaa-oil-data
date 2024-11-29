@@ -3,7 +3,7 @@
     "adios_data_model_version": "0.12.0",
     "metadata": {
         "name": "OFELIA",
-	"location": "Norway",
+        "location": "Norway",
         "reference": {
             "year": 2023,
             "reference": "Sorheim et al. (2023), Ofelia - Weathering properties and behaviour at sea"
